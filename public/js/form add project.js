@@ -48,7 +48,6 @@ function renderBlog() {
 
   for (let i = 0; i < dataBlog.length; i++) {
     document.getElementById("contents").innerHTML += `
-        <div class="container-lg row p-0 p-lg-0 py-0 py-md-0 py-lg-0 m-auto">
             <div class="col-12 col-md-6 col-lg-4 p-2">
              <div class="card p-3 shadow">
                 <img src="${
